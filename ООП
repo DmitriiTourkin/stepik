@@ -1,0 +1,23 @@
+public class Animal {
+    String type;
+    String name;
+    int age;
+    float weight;
+    boolean isSwim;
+    boolean isWalk;
+    boolean isFly;
+
+
+    public Animal(String type, String name, int age, float weight, boolean isSwim, boolean isWalk, boolean isFly) {
+        this.type = type;
+        this.name = name;
+        this.age = age;
+        this.weight = weight;
+        this.isSwim = isSwim;
+        this.isWalk = isWalk;
+        this.isFly = isFly;
+    }
+    public display() {
+        return ""
+    }
+}
